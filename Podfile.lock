@@ -1,0 +1,51 @@
+PODS:
+  - Bond (6.10.2):
+    - Differ (~> 1.3)
+    - ReactiveKit (~> 3.9)
+  - Differ (1.3.0)
+  - ReachabilitySwift (4.3.0)
+  - ReactiveKit (3.9.7)
+  - Realm (3.11.2):
+    - Realm/Headers (= 3.11.2)
+  - Realm/Headers (3.11.2)
+  - RealmSwift (3.11.2):
+    - Realm (= 3.11.2)
+  - Thrift (0.0.1)
+
+DEPENDENCIES:
+  - Bond
+  - ReachabilitySwift
+  - ReactiveKit
+  - RealmSwift
+  - Thrift (from `https://github.com/apocolipse/Thrift-Swift`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bond
+    - Differ
+    - ReachabilitySwift
+    - ReactiveKit
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  Thrift:
+    :git: https://github.com/apocolipse/Thrift-Swift
+
+CHECKOUT OPTIONS:
+  Thrift:
+    :commit: 55e1f83ccbf65305edea0fcadba4d4f404ef6987
+    :git: https://github.com/apocolipse/Thrift-Swift
+
+SPEC CHECKSUMS:
+  Bond: 5c9d854fb14d3268496ccaf9b7ccd8428ec1609c
+  Differ: 9fcee7602542d7c6484ce05a0faec1c11258ed63
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  ReactiveKit: 5f4c440715d671901c382ae6b42ed3337ce4699b
+  Realm: 864477d028db77f7c5a0cba64a4892ad53db128a
+  RealmSwift: 12b8262fc08020b47de4fd88eb3d5c9425b34ec7
+  Thrift: 7c35e09784f5ecc6d48ac7419cc02447da68ce75
+
+PODFILE CHECKSUM: bb519b2216c23bbcc895474a9af70bbf0e820a58
+
+COCOAPODS: 1.5.3
